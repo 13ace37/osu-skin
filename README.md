@@ -1,4 +1,4 @@
 # osu-skin
 My current, u2d, osu skin.
 
-Edit of https://osuskins.net/skin/qxqpsS0 by dlwnstns99, Puffazz
+Edit of an Edit from Aristia's skin. Link N/A
