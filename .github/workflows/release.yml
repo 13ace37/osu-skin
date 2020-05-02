@@ -8,14 +8,14 @@ on:
 
 jobs:
   build:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v1
       - name: Create Files
         run: |
-          for dir in */; do ( cd "$dir" && zip -r ../"${dir%/}".osk . ) done
+          for i in */; do zip -r "${i%/}.osk" "$i"; done
           zip skins.zip *.osk
 
       - name: Create Release
